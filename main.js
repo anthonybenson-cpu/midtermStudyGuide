@@ -2,6 +2,9 @@
 
 // Problem 1: gradeMessage
 function gradeMessage(score) {
+  if (score < 60){
+    return 'You are failing.'
+  }
   // your code here
 }
 
